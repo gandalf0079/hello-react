@@ -48,28 +48,14 @@ export default function App() {
 
 
       // Method - 2 - using <span>
-       //emojisWeKnow.map(function (emoji) {
-         //return <span
-         //key = {emoji}
-         //onClick = { () => emojiClickHandler(emoji) }
-         //style = { { padding: '1rem', fontSize: '2rem', cursor: 'pointer' } }
-         //>
-            //{ emoji } </span>
-       //})
-
-      // Method - 3 - using <ol> and <li> tags
-      <ol>
-      {
-        emojisWeKnow.map(function (emoji) {
-          return <li
-          key = {emoji}
-          onClick = { () => emojiClickHandler(emoji) }
-          style = { { padding: '1rem', fontSize: '2rem', cursor: 'pointer' } }
-          >
-            { emoji } </li>
-        })
-      }
-      </ol>
+       emojisWeKnow.map(function (emoji) {
+         return <span 
+         key = {emoji}
+         onClick = { () => emojiClickHandler(emoji) }
+         style = { { padding: '1rem', fontSize: '2rem', cursor: 'pointer' } }
+         >
+            { emoji } </span>
+       })
     }
     </div>
   );
