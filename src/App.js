@@ -43,7 +43,7 @@ export default function App() {
     <h3>{ meaning } </h3> 
     <h4> Emojis we know </h4>
     {
-       Method - 1
+       //Method - 1
        <span>{emojisWeKnow}</span>
 
     }
