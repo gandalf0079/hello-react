@@ -1,0 +1,2 @@
+- Create a emoji interpreter web app using ReactJS
+- Beginners are welcom
