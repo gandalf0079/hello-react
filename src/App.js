@@ -43,9 +43,19 @@ export default function App() {
     <h3>{ meaning } </h3> 
     <h4> Emojis we know </h4>
     {
-       Method - 1
-       <span>{emojisWeKnow}</span>
+       //Method - 1
+       //<span>{emojisWeKnow}</span>
 
+
+      // Method - 2 - using <span>
+       emojisWeKnow.map(function (emoji) {
+         return <span 
+         key = {emoji}
+         onClick = { () => emojiClickHandler(emoji) }
+         style = { { padding: '1rem', fontSize: '2rem', cursor: 'pointer' } }
+         >
+            { emoji } </span>
+       })
     }
     </div>
   );
