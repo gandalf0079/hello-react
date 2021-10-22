@@ -1,3 +1,3 @@
 # hello-react
 
-- Building a simple react app
+- Building a simple react web app
