@@ -3,6 +3,15 @@ import "./styles.css";
 
 var emojiDictionary = {
   "😀": "Grinning Face",
+  "🤗": "Hugging Face",
+  "😅": "Grinning Face with Sweat",
+  "😉": "Winking face",
+  "🤩": "Star-Struck",
+  "😇": "Smiling Face with Halo",
+  "😬": "Grimancing Face",
+  "😛": "Face with Tongue",
+  "😒": "Unamused Face",
+  "😵": "Dizzy Face"
 };
 var emojisWeKnow = Object.keys(emojiDictionary);
 export default function App() {
